@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 30</title>
+    <style>
+        * {
+           box-sizing: border-box;
+        }
+        @font-face {
+            font-family: iran;
+            src: url(./IRANSansWeb.woff2);
+        }
+
+        body {
+            height: 100vh;
+            overflow: hidden;
+        }
+        div {
+            background: url('./Happy30.jpg');
+            background-size: contain;
+            background-repeat: repeat;
+            height: 300vh;
+            font-family: iran;
+            animation: slide 15s infinite linear;
+            overflow: hidden;
+        }
+
+        section {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, .5);
+        }
+
+        main {
+            position: absolute;
+            top: 30%;
+            width: 100%;
+            left: 0;
+            height: 90vh;
+            background-color: white;
+            border-start-start-radius: 8px;
+            padding: 16px;
+        }
+
+        @keyframes slide {
+            from {
+                background-position-y: 0%;
+            }
+
+            to {
+                background-position-y: 100%;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <section>
+        <main>
+            <p>
+                دوستان من سلام
+            </p>
+
+            <p>
+                افتخار دارم دعوتتون کنم به یه دورهمی ۲ ساعته به مناسبت ۳۰ سالگیم. 
+                <span style="font-size: 12px; font-style: italic;">(این اتفاق هر ۱۰ سال یه بار رخ می‌ده)</span>
+            </p>
+            <p> <b>جمعه ۱۸ اسفند ساعت ۴ تا ۶</b> به صرف نوشیدنی گرم و کیک و عکس یادگاری.</p>
+            <p>
+اگه این لینک دعوت رو دریافت کردید یعنی شخص عزیزی برای من هستید و میتونید با عزیزتون تشریف بیارید. 
+حضورتون در قاب ۳۰ سالگی من بهترین کادو برای منه و آرزو می‌کنم تا قاب چهل سالگی کنار هم بمونیم. 
+            </p>
+            <p>
+                میبینمتون و دوستتون دارم. علی
+            </p>
+        </main>
+    </section>
+</div>
+</body>
+</html>
